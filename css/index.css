@@ -11,6 +11,12 @@ body{
     background-size: cover;
     background-position: center;
 }
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+  }
 .calculator-grid{
     display: grid;
     justify-content: center;
